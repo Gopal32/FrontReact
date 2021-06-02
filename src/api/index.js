@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://gkothari96-reacttemp-cms-8519.zeet.app/' });
+const API = axios.create({ baseURL: 'https://gkothari96-backreact.zeet.app/' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
